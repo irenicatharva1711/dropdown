@@ -1,0 +1,181 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+nav{
+    background-color: skyblue;
+    height: 15%;
+    width: 200px;
+}
+#hotel{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+    color:white;
+    padding:20px 0px;
+    display: block;
+    text-align: center;
+    font-size:25px;
+    border-bottom: 2px solid white;
+}
+a:hover{
+    background-color: dimgray;
+    color: cyan;
+}
+#veg{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: green;
+    position: absolute;
+    display: none;
+    left: 100%;
+    top: 0%;
+    width: 100%;
+}
+#dropveg{
+    position: relative;
+}
+#dropveg:hover #veg{
+    display: block;
+}
+#nonveg{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: darkred;
+    position: absolute;
+    display: none;
+    left: 100%;
+    width: 100%;
+    top: 0%;
+}
+#dropnonveg{
+    position: relative;
+}
+#dropnonveg:hover #nonveg{
+    display: block;
+}
+#drinks{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: lawngreen;
+    position: absolute;
+    display: none;
+    left: 100%;
+    width: 100%;
+    top: 0%;
+}
+#dropdrinks{
+    position: relative;
+}
+#dropdrinks:hover #drinks{
+    display: block;
+}
+#kaju{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: darkslategrey;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#kp{
+    position: relative;
+}
+#kp:hover #kaju{
+    display: block;
+}
+#mhh{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: plum;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#mh{
+    position: relative;
+}
+#mh:hover #mhh{
+    display: block;
+}
+#dgg{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rosybrown;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#dg{
+    position: relative;
+}
+#dg:hover #dgg{
+    display: block;
+}
+#vkk{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#vk{
+    position: relative;
+}
+#vk:hover #vkk{
+    display: block;
+}
+#omm{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(59, 1, 1);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#om{
+    position: relative;
+}
+#om:hover #omm{
+    display: block;
+}
+#dkk{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: goldenrod;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#dk{
+    position: relative;
+}
+#dk:hover #dkk{
+    display: block;
+}
